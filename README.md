@@ -1,0 +1,3 @@
+### Dependencies:
+- bc
+- adb
