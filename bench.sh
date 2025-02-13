@@ -8,7 +8,8 @@ get_cpu_load() {
   adb shell dumpsys cpuinfo | grep -oP "TOTAL:\s*\K[0-9.]+"
 }
 
-PACKAGE_NAME="com.kurogame.wutheringwaves.global"
+# you can name the app/game you wanna monitor here
+PACKAGE_NAME="APP_NAME"
 PREV_FRAMES=0
 
 # Initialize previous frames count from SurfaceFlinger
